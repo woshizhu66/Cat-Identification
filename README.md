@@ -1,6 +1,6 @@
 # Cat-Identification
 
-Cat is the main project
+Cat is the main project. Home is the app in it.
 
 yolov5-6.0 is where to train the model
 
