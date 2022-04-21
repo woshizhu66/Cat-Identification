@@ -126,7 +126,7 @@ def index(request):
                     "flag": item.flag
                 }
                 cat_list.append(cat_item)
-                # 显示相关的信息
+
             image_count = cat.objects.all().count()
             info = {
                 "predict": cat_demo.predict,

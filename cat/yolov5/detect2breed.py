@@ -48,7 +48,7 @@ def letterbox(img, new_shape=(640, 640), color=(114, 114, 114), auto=True, scale
     return img, ratio, (dw, dh)
 
 
-weights = r'D:\System\yolov5-6.0\yolov5-6.0\runs\train\exp30\weights\best.pt'
+weights = 'yolov5/breed.pt'
 opt_device = ''  # device = 'cpu' or '0' or '0,1,2,3'
 imgsz = 640
 opt_conf_thres = 0.25
